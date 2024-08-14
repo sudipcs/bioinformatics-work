@@ -14,7 +14,7 @@ Given a GTF file, develop a Python script to extract and save the transcriptome 
 
 Input GTF: ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.annotation.gtf.gz (Download and save it to local folder path)
 
-Task 1: Given the GTF file, **analysis_transcriptome_feature.py** script to extract and save the following transcriptome features into individual BED files. <br>
+Given the GTF file, **analysis_transcriptome_feature.py** script to extract and save the following transcriptome features into individual BED files. <br>
 • Genes: Include both gene ID and name. <br>
 • Transcripts: Include transcript ID, gene ID, and gene name. <br>
 • Coding exons, 5' UTRs, 3' UTRs, and introns: Annotate each with associated gene names and/or transcript IDs/names, as applicable. <br>
@@ -23,11 +23,13 @@ Also using the external BED file (T1.bed), map and match its regions to the feat
 
 ### 4. Cluster genes based on their expression
 
-Given a matrix where rows represent genes and columns represent samples, develop a Python to:
-Use the attached T2.txt file as input. <br>
+Given a matrix where rows represent genes and columns represent samples, 
+Attached are two matrices T3_M1.txt and T3_M2.txt. Perform statistical tests to test for differences/similarity between any two matrices by preserving the matrix structure?
+develop a Python to: Use the attached T2.txt file as input. <br>
 • Cluster genes based on their expression patterns across samples. <br>
 • Visualize the representative expression profile for each identified cluster. <br>
-• Do the inverse, i.e., cluster samples based and plot gene signatures. <br>
+• Do the inverse, i.e., cluster samples based and plot gene signatures. <be>
+
 **cluster_genes_exp.py** Cluster genes based on their expression patterns across samples. Visualize the representative expression profile for each identified cluster.
 
 
