@@ -36,10 +36,10 @@ develop a Python to: Use the attached T2.txt file as input. <br>
 
 Data: **GeneCounts.txt ** - This file contains gene count information for 24 samples from a bulk RNAseq experiment, with columns indicating sample IDs and rows indicating gene IDs. **genelist.txt** - This file contains 200 gene IDs. <br>
 **gene_cluster_PCA.ipynb** performs the following: <br>
-(1) Using the `genelist.txt` information to subset the gene count information from `GeneCounts.txt` (i.e. retrieve only the GeneCounts.txt data for the genes in genelist.txt.
-(2) Subset the gene count information from (1) further by removing all genes that have 0 counts for all of their samples.
+(1) Using the `genelist.txt` information to subset the gene count information from `GeneCounts.txt` (i.e. retrieve only the GeneCounts.txt data for the genes in genelist.txt <br>
+(2) Subset the gene count information from (1) further by removing all genes that have 0 counts for all of their samples. <br>
 (3) Sample 1-12 are experimental subjects from the control group and Samples 13-24 are experimental subjects from the treatment group. Apply principal component analysis (PCA
-on the list from (2) and plot PC1 vs PC2 for all samples, and make sure the plot contains the following information:
-  a. Proportion of variance explained by PC 1 and PC 2 each
-  b. Data points are colored according to whether they represent "control" or "treatment" data.
+on the list from (2) and plot PC1 vs PC2 for all samples, and make sure the plot contains the following information: <br>
+  a. Proportion of variance explained by PC 1 and PC 2 each <br>
+  b. Data points are colored according to whether they represent "control" or "treatment" data. <br>
 
