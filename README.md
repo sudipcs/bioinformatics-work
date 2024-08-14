@@ -14,4 +14,13 @@ Given a GTF file, develop a Python script to extract and save the transcriptome 
 
 Input GTF: ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.annotation.gtf.gz (Download and save it to local folder path)
 
+Task 1: Given the GTF file, **analysis_transcriptome_feature.py** script to extract and save the
+following transcriptome features into individual BED files. 
+• Genes: Include both gene ID and name.
+• Transcripts: Include transcript ID, gene ID, and gene name.
+• Coding exons, 5' UTRs, 3' UTRs, and introns: Annotate each with associated gene names and/or transcript IDs/names, as applicable.
+
+Also using the external BED file (T1.bed), map and match its regions to the features extracted above. Save the results in a separate file and append a column indicating the corresponding feature type (e.g., exon, 5UTR, 3UTR, intron, and UN for non-mapped).
+
+
 
