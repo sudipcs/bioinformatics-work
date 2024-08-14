@@ -21,7 +21,13 @@ Task 1: Given the GTF file, **analysis_transcriptome_feature.py** script to extr
 
 Also using the external BED file (T1.bed), map and match its regions to the features extracted above. Save the results in a separate file and append a column indicating the corresponding feature type (e.g., exon, 5UTR, 3UTR, intron, and UN for non-mapped).
 
-### 4. Analysis of transcriptome features
+### 4. Cluster genes based on their expression
 
+Given a matrix where rows represent genes and columns represent samples, develop a Python to:
+Use the attached T2.txt file as input. <br>
+• Cluster genes based on their expression patterns across samples. <br>
+• Visualize the representative expression profile for each identified cluster. <br>
+• Do the inverse, i.e., cluster samples based and plot gene signatures. <br>
+**cluster_genes_exp.py** Cluster genes based on their expression patterns across samples. Visualize the representative expression profile for each identified cluster.
 
 
