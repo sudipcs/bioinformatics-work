@@ -34,7 +34,7 @@ develop a Python to: Use the attached T2.txt file as input. <br>
 
 ### 5. Cluster genes using principal component analysis (PCA)
 
-Data: **GeneCounts.txt **- This file contains gene count information for 24 samples from a bulk RNAseq experiment, with columns indicating sample IDs and rows indicating gene IDs. **genelist.txt** - This file contains 200 gene IDs. <br>
+Data: **GeneCounts.txt ** - This file contains gene count information for 24 samples from a bulk RNAseq experiment, with columns indicating sample IDs and rows indicating gene IDs. **genelist.txt** - This file contains 200 gene IDs. <br>
 
 (1) Use the `genelist.txt` information to subset the gene count information from `GeneCounts.txt` (i.e. retrieve only the GeneCounts.txt data for the genes in genelist.txt.
 (2) Subset the gene count information from (1) further by removing all genes that have 0 counts for all of their samples.
