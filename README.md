@@ -21,5 +21,7 @@ Task 1: Given the GTF file, **analysis_transcriptome_feature.py** script to extr
 
 Also using the external BED file (T1.bed), map and match its regions to the features extracted above. Save the results in a separate file and append a column indicating the corresponding feature type (e.g., exon, 5UTR, 3UTR, intron, and UN for non-mapped).
 
+### 4. Analysis of transcriptome features
+
 
 
