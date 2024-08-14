@@ -11,6 +11,7 @@ An interleaved fastq file containing paired-end reads needs to be split into two
 
 ### 3. Analysis of transcriptome features
 Given a GTF file, develop a Python script to extract and save the transcriptome features into individual BED files.
+
 GTF: ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.annotation.gtf.gz
 
 
