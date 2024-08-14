@@ -30,6 +30,6 @@ develop a Python to: Use the attached T2.txt file as input. <br>
 • Visualize the representative expression profile for each identified cluster. <br>
 • Do the inverse, i.e., cluster samples based and plot gene signatures. <be>
 
-**cluster_genes_exp.py** Cluster genes based on their expression patterns across samples. Visualize the representative expression profile for each identified cluster.
+**cluster_genes_exp.py or notebook** cluster genes based on their expression patterns across samples. Visualize the representative expression profile for each identified cluster.
 
 
