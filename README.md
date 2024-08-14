@@ -40,6 +40,6 @@ Data: **GeneCounts.txt ** - This file contains gene count information for 24 sam
 (2) Subset the gene count information from (1) further by removing all genes that have 0 counts for all of their samples. <br>
 (3) Sample 1-12 are experimental subjects from the control group and Samples 13-24 are experimental subjects from the treatment group. Apply principal component analysis (PCA
 on the list from (2) and plot PC1 vs PC2 for all samples, and make sure the plot contains the following information: <br>
-  a. Proportion of variance explained by PC 1 and PC 2 each <br>
-  b. Data points are colored according to whether they represent "control" or "treatment" data. <br>
+    a. Proportion of variance explained by PC 1 and PC 2 each <br>
+    b. Data points are colored according to whether they represent "control" or "treatment" data. <br>
 
