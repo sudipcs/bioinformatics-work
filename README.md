@@ -9,4 +9,6 @@ An interleaved fastq file containing paired-end reads needs to be split into two
 
  TE_analysis.py or notebook 1. read the FASTQ file, calculate the sequence length and GC content for each read, and then print the average sequence length and average GC content. 2. also it checks if any of the transposable elements are present. If a match is found, it prints the sequence ID and the sequence containing the transposable element.
 
-
+### 3. Analysis of transcriptome features
+Given a GTF file, develop a Python script to extract and save the transcriptome features into individual BED files.
+Use this GTF: 
